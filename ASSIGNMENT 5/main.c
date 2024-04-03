@@ -5,7 +5,7 @@ void menu();
 char read_news(),list_readed_news(), get_decrypted();
 float f(int x),g(int x);
 /*variable declarations*/
-char filename[12]="news\\x.txt";
+char filename[12]="news\\x.txt"; /*this is competible for windows. in ubuntu, file path is shown by a /. so change it to "news/x.txt" */
 FILE *ptr,*ptr2;
 
 int main(){
