@@ -1,3 +1,11 @@
+    /*
+        a simple aritifcal intelligence
+        to group the given data with
+        least number of errors
+        training and using it in the program
+        and exploring some data
+        written by: zeynepsturan
+    */
 #include <stdio.h>
 int main(){
     FILE *ptr;
