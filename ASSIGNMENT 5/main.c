@@ -1,3 +1,9 @@
+    /*
+        the program that prints the daily news
+        about astronaut Alper Gezeravcı, marks
+        them as read and decrypts the secret key
+        written by: zeynepsturan
+    */
 #include <stdio.h>
 #include <locale.h>
 /*function declarations*/
