@@ -1,11 +1,20 @@
+    /*
+    a 2D puzzle game. to get to the finish
+    player must collect the objects to be
+    able to get through the walls. 
+    (pointers are not allowed)
+    written by: zeynepsturan
+    */
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+/*variable declarations*/
 char board[256];
 int player=119;
 int move=0,ects=0;
 int object1_1, object1_2, object1_3, object1_4, object2_1, object2_2, object2_3;
 
+/*function declarations*/
 void initialize_game(), print_board(), move_player(char direction); 
 int place_object1(int x), place_object2(int x);
 void inner_walls(char x), outer_walls(char x); /*these functions are to include or exclude the walls*/
