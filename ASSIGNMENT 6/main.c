@@ -1,3 +1,10 @@
+    /*
+        the program that creates a histogram 
+        using the given array and allows to
+        add new numbers to histogram
+        the interval is[50,200]
+        written by: zeynepsturan
+    */
 #include <stdio.h>
 /*function declarations*/
 int find_size_of_array(int A[]);
@@ -8,7 +15,7 @@ void draw_histogram(int occurrence_array[],int size),print_operations(int A[],in
 int main(){
     /*variable declarations*/
     int a,b,i,j,k,array_size,choice,newnum;
-    int number_array[] = {
+    int number_array[] = { /*this array is a demo array only between 60-90*/
     73, 86, 72, 88, 65, 84, 76, 66, 77, 81, 81, 74, 71, 72, 63, 83, 76, 76, 83, 81,
     88, 85, 87, 72, 84, 87, 86, 68, 79, 66, 80, 72, 88, 78, 89, 74, 75, 83, 86, 76,
     80, 64, 87, 66, 73, 75, 71, 80, 69, -1};
@@ -18,6 +25,7 @@ int main(){
     printf("Enter A and B values: ");
     scanf("%d %d",&a,&b);
 
+    /*checks*/
     while(a<50 || b>200 || b<a){
         if(a<50){
             printf("A must be at least 50\n");
