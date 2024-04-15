@@ -1,3 +1,9 @@
+    /*
+    a data base program for students and instructors
+    it's a bad written assignment so i don't recommend
+    it as a good example, just analizing it would be better.
+    written by: zeynepsturan
+    */
 #include <stdio.h>
 /*function declarations*/
 char first_initial (FILE *id_fp, int id), last_initial(FILE *id_fp, int id);
